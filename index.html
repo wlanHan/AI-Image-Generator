@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <section class="image-generator">
+        <div class="content">
+            <h1>JavScript ile AI Görsel Oluşturma</h1>
+            <p>JavaScript destekli Yapay Zeka Görüntü Oluşturucu aracını kullanarak metni bir saniye içinde bir
+                görüntüye dönüştürün.</p>
+            <form action="#" class="generate-form">
+                <input class="prompt-input" type="text" placeholder="Görmek istediğinizi tarif edin" required>
+                <div class="controls">
+                    <select class="img-quantity">
+                        <option value="1">1 Fotoğraf</option>
+                        <option value="2">2 Fotoğraf</option>
+                        <option value="3">3 Fotoğraf</option>
+                        <option value="4" selected>4 Fotoğraf</option>
+                    </select>
+                    <button type="submit" class="generate-btn">Oluştur</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="image-gallery">
+        <div class="img-card"><img src="./img-1.jpg" alt="image"></div>
+        <div class="img-card"><img src="./img-2.jpg" alt="image"></div>
+        <div class="img-card"><img src="./img-3.jpg" alt="image"></div>
+        <div class="img-card"><img src="./img-4.jpg" alt="image"></div>
+    </section>
+</body>
+
+</html>
